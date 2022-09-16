@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+
+.dark_toogle{
+    display: flex;
+    align-items: center;
+}
+
+.ball_container{
+    background-color: black;
+    border-radius: 40%;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    position: relative;
+    transition: all 0.5s;
+}
+.moon{
+    color: #f1c40f;
+}
+.sun{
+    color: #f39c12;
+}
+.ball{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    top: 4px;
+    left: 2px;
+    position: absolute;
+    transform: translateX(0px);
+    transition: all 0.6s;
+
+}
+.baller{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    transform: translateX(10px);
+    transition: all 0.6s;
+}

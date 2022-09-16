@@ -1,0 +1,35 @@
+.search_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.search{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.search_input{
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid black;
+    padding: 6px 6px 6px 28px;
+}
+.search_icon{
+    position: absolute;
+    top: 7px;
+    z-index: 1;
+    left: 5px;
+}
+.change_continent{
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.select{
+    width: 100%;
+    padding: 4px;
+}
