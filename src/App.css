@@ -18,6 +18,18 @@
     min-height: 100vh;
     background-color: var(--main_bg);
 }
+.app.dark_mode .countries div p {
+    color: var(--dark_bg);
+}
+.app.dark_mode .countries div h2 {
+    color: var(--dark_bg);
+}
+.app.dark_mode .countries div span {
+    color: var(--dark_bg);
+}
+.app.dark_mode .border_state{
+    background-color: red !important;
+}
 .app.dark_mode{
     background-color: var(--dark_bg);
 }
